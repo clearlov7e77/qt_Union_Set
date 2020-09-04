@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>887</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>150</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>connected</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>180</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>union</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_3">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>120</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>intial</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>887</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>算法</string>
+    </property>
+    <addaction name="actionquick_find"/>
+    <addaction name="actionquick_union"/>
+    <addaction name="actionweighted_quick_union"/>
+    <addaction name="actionweighted_QU_path_compression"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>应用</string>
+    </property>
+    <addaction name="actiondynamic_connectivity"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>关于我们</string>
+    </property>
+    <addaction name="actionzuozhe"/>
+    <addaction name="actionhelp"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionquick_find">
+   <property name="text">
+    <string>quick_find</string>
+   </property>
+  </action>
+  <action name="actionquick_union">
+   <property name="text">
+    <string>quick_union</string>
+   </property>
+  </action>
+  <action name="actionweighted_quick_union">
+   <property name="text">
+    <string>weighted_quick_union</string>
+   </property>
+  </action>
+  <action name="actionweighted_QU_path_compression">
+   <property name="text">
+    <string>weighted QU + path compression</string>
+   </property>
+  </action>
+  <action name="actionzuozhe">
+   <property name="text">
+    <string>about us</string>
+   </property>
+  </action>
+  <action name="actiondynamic_connectivity">
+   <property name="text">
+    <string>Dynamic_connectivity</string>
+   </property>
+  </action>
+  <action name="actionhelp">
+   <property name="text">
+    <string>help</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
